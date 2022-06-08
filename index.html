@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understand your Laravel app, visualize your code | SourceDive</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <style>
+        body {
+            font-size: 1.2rem;
+        }
+
+        .navbar-brand img {
+            height: 48px;
+        }
+
+        strong {
+            color: #226590;
+            font-weight: 900;
+        }
+
+        .form-control {
+            border: none;
+        }
+
+        .btn-primary {
+            border: none;
+            --bs-btn-bg: #226590;
+            --bs-btn-hover-bg: #2798d9;
+        }
+
+        .separator {
+            font-size: 4.5rem;
+            color: #22659022;
+            margin-bottom: 4rem;
+        }
+
+        .waiting-list-top {
+            height: 35px;
+            background: url('item.svg');
+        }
+
+        .waiting-list {
+            background: linear-gradient(180deg, rgba(23, 52, 72, 1) 10%, rgba(8, 18, 25, 1) 100%);
+            color: #ffffff;
+        }
+
+
+        footer {
+            background-color: #000910;
+            color: #aabbcc;
+            font-size: 0.8rem;
+        }
+
+        footer a {
+            color: #aabbcc;
+            text-decoration: none;
+            border-bottom: 1px solid #aabbcc55;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-light bg-white py-4">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <img src="logo.svg" alt="Logo">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container pb-5">
+            <div class="row">
+                <div class="col-12 col-lg-10 offset-lg-1">
+                    <h1 class="display-4 fw-bolder my-2 my-lg-5">Visualize your code</h1>
+                    <p>
+                        Get a birds-eye view of your code and see how everything relates. Then, drill down and dive deep
+                        into the specific code or workflow you want to know more about.
+                    </p>
+                    <p class="mb-0">
+                        <strong>Built for Laravel.</strong> SourceDive understands middleware, policies, gates, form
+                        requests,
+                        events, notifications, and more.
+                    </p>
+                </div>
+            </div>
+
+            <section class="separator text-center">﹏</section>
+
+            <div class="row">
+                <div class="col-12 col-lg-10 offset-lg-1">
+
+                    <div class="row gx-lg-5">
+                        <div class="col-12 col-md-6 mb-5 mb-md-0">
+                            <img src="scheduled.png" alt="Scheduled task display" class="img-fluid">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p>
+                                <strong>Track scheduled tasks.</strong> It's time to know what's happening and when in
+                                your
+                                app.
+                            </p>
+                            <p>
+                                You can ask questions like <q>show me all of the scheduled jobs that will run in the
+                                    next 2
+                                    hours</q>. SourceDive parses and understands what's going to happen next and will
+                                show
+                                you in a clear, concise and easy-to-follow manner.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <section class="separator text-center">﹏</section>
+
+            <div class="row">
+                <div class="col-12 col-lg-10 offset-lg-1">
+
+                    <div class="row gx-lg-5">
+                        <div class="col-12 col-md-6 mb-5 mb-md-0 order-md-last">
+                            <img src="analyze.png" alt="Analyze URL display" class="img-fluid">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p>
+                                <strong>What files and features are used for this URL.</strong> Start with the URL to
+                                see
+                                the full path through the app.
+                            </p>
+                            <p>
+                                Not sure if a URL issues events? Does it contain validation? Is it hitting rate
+                                limiters?
+                                SourceDive takes a URL and builds a visual
+                                path through the application, showing the Laravel files, functions and classes that you
+                                care
+                                about.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="waiting-list-top mt-5"></div>
+        <section class="waiting-list py-5">
+            <div class="container text-center py-5 my-5">
+                <div class="row">
+                    <div class="col-12 col-lg-10 offset-lg-1">
+                        <h2 class="display-5">Interested?</h2>
+                        <p>Join the waiting list to get notified when it's time for launch. You'll get an invite to our
+                            private beta!</p>
+                        <div class="my-4 d-flex justify-content-center">
+                            <form class="row gy-2 gx-3 align-items-center">
+                                <div class="col-auto">
+                                    <label class="visually-hidden" for="email">Email</label>
+                                    <input type="email" class="form-control rounded-0" id="email"
+                                        placeholder="laravel-dev@gmail.com" required>
+                                </div>
+                                <div class="col-auto">
+                                    <button type="submit" class="btn btn-primary rounded-0">Join Waitlist</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container text-center py-4">
+            &copy; 2022 <a href="https://nocompromises.io" target="_blank">No Compromises</a>
+        </div>
+    </footer>
+</body>
+
+</html>
