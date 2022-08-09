@@ -1,3 +1,5 @@
 # SourceDive Landing Page
 
-Even if this was a proof of concept, it'd have a readme.
+Public landing page for the SourceDive code analysis and visualization tool.
+
+Visible at [sourcedive.com](https://sourcedive.com)
